@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1 id="glos">GŁOSOWANKO ZAPRASZAM</h1>
+    <div id="kandydat1">
+        <h1 id="kandy1">KANDYDAT 1</h1>
+        <input type="radio" id="glos11" name="wybor" value="1">
+    </div>
+    <div id="kandydat2">
+        <h1 id="kandy2">KANDYDAT 2</h1>
+        <input type="radio" id="glos12" name="wybor" value="2">
+    </div>
+    <div id="kandydat3">
+        <h1 id="kandy3">KANDYDAT 3</h1>
+        <input type="radio" id="glos13" name="wybor" value="3">
+    </div>
+    <div id="pesel">
+        <input placeholder="PESEL" type="text" maxlength="11" id="peselinfo">
+        <input placeholder="IMIE" type="text" id="imie">
+        <input placeholder="NAZWISKO" type="text" id="nazwisko">
+        <button onclick="dodaj()">Dodaj</button>
+    </div>
+    <div id="Chart">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div id="divson">
+        
+    </div>
+    <script src="config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <script src="chart.js"></script>
+    <script src="table.js"></script>
+</body>
+</html>
